@@ -1,0 +1,284 @@
+/*== COLORES ===
+
+Azul claro: #22b8f0;
+Naranja:#FF9307;
+Azul oscuro:#1d2488 ;
+Verde:#1d8891;
+
+
+
+
+
+======*/
+
+/*== PERSONALIZAR MENU SUPERIOR ==*/
+
+.offcanvas-menu{
+	background-color: rgba(245,147,7,0.7)
+}
+
+
+
+/*== FIN MENU SUPERIOR ==*/
+
+
+
+/*=== PERSONALIZAR SOY NUEVO ===*/
+
+#sp-position-1{
+}
+
+
+div.soy h3{
+	text-align: center;
+	color:#22b8f0;
+}
+
+div.soy p {
+	padding-top: 15px;
+}
+
+div.soybox{
+	padding-top: 30px;
+}
+
+
+
+/*=== FIN PERSONALIZAR SOY NUEVO ===*/
+
+/*=== PERSONALIZAR NUESTROS MINISTERIOS ===*/
+#sp-position-2{
+}
+
+#sp-position2{
+	width: 100%;
+	height: 100%;
+	margin:auto;
+}
+
+div.min h3{
+	text-align: center;
+	color:#22b8f0;
+}
+
+
+div.galeria p{
+	width: 140px;
+	text-align: center;
+	font-size: 1.3em;
+	font-style: bold;
+	color: #FF9307;
+	font-style: bold;
+	line-height: 1;
+	margin-left: 10px
+}
+
+div.galeria{
+  	margin: 10px 0px 5px 40px;
+	display: inline-block;
+	width: 170px;
+	height: 170px;
+	-webkit-animation: 2s movemin 2s;
+	-o-animation: 2s movemin 2s;
+	animation: 2s movemin s;
+
+}
+
+
+div.galeria a {
+	position: relative;
+  	display: inline-block;
+}
+
+div.galeria a:hover {
+	z-index: 99;
+}
+
+div.galeria a img {
+	border: 3px solid #999999;
+	padding: 2px;
+	background: #abc4d6;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	border-radius: 100%;
+}
+
+div.galeria img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	border-radius: 100%;
+}
+
+/*=== FIN NUESTROS MINISTERIOS ===*/
+
+/** MEDIA QUERIES JOMMLA **/
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:768px) {
+	
+/*== PERSONALIZAR MENU SUPERIOR ==*/
+
+
+/*== FIN MENU SUPERIOR ==*/
+
+/*=== PERSONALIZAR SOY NUEVO ===*/
+
+#sp-position-1{
+}
+
+
+div.soy h3{
+	font-size: 2.0em;
+}
+
+div.soy p {
+	font-size: 1.2em;
+	padding-top: 15px;
+}
+
+div.soybox{
+	padding-top: 30px;
+}
+
+
+
+/*=== FIN PERSONALIZAR SOY NUEVO ===*/
+
+/*=== PERSONALIZAR NUESTROS MINISTERIOS ===*/
+
+div.min h3{
+	font-size: 2.5em;
+}
+
+div.min p{
+	font-size: 1.3em;
+
+}
+
+div.galeria p{
+	font-size: 1.5em;
+}
+
+div.galeria{
+  	margin: 0px 0px 5px 45px;
+
+}
+
+
+/*=== FIN NUESTROS MINISTERIOS ===*/
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+	
+/*== PERSONALIZAR MENU SUPERIOR ==*/
+
+#sp-header {
+}
+
+#sp-menu {
+}
+
+#sp-menu a:hover{
+	color:#FF9307;
+
+}
+
+#sp-menu a:hover :after{
+	content: '';
+
+
+	border-style: solid;
+	border-width: 20px 35px 20px 35px;
+	border-color:white
+					white
+					#FF9307
+					white;
+
+
+	position: absolute;
+	bottom: 0px;
+
+}
+
+
+/*== FIN MENU SUPERIOR ==*/
+
+/*=== PERSONALIZAR SOY NUEVO ===*/
+
+#sp-position-1{
+	padding-top: 35px;
+}
+
+
+div.soy h3{
+	font-size: 2.5em;
+}
+
+div.soy p {
+	font-size: 1.3em;
+	padding-top: 15px;
+}
+
+div.soybox{
+	padding-top: 30px;
+}
+
+
+
+/*=== FIN PERSONALIZAR SOY NUEVO ===*/
+
+/*=== PERSONALIZAR NUESTROS MINISTERIOS ===*/
+
+div.min h3{
+	font-size: 2.5em;
+}
+
+div.min p{
+	font-size: 1.3em;
+	line-height: 1.5;
+
+}
+
+div.galeria p{
+	font-size: 1.5em;
+}
+
+div.galeria{
+  	margin: 30px 0px 5px 10px;
+
+}
+
+
+/*=== FIN NUESTROS MINISTERIOS ===*/
+
+
+
+
+
+
+/** FIN MEDIA QUIERIES **/
+
+
+
+
+
+
+
+
+/** KEYFRAMES CASA DE ADORADORES ==*/
+@keyframes movemin{
+  0% {
+    -moz-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+  }
+}
+
