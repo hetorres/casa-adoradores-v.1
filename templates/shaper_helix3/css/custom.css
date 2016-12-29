@@ -4,12 +4,144 @@ Azul claro: #22b8f0;
 Naranja:#FF9307;
 Azul oscuro:#1d2488 ;
 Verde:#1d8891;
-
-
-
-
-
 ======*/
+
+/*=== PERSONALIZAR ICONOS SOCIALES ===*/
+#sp-top-bar{
+	background: #22b8f0;
+
+}
+
+#sp-top1 ul i{
+	font-size: 1.5em;
+	color: white;
+}
+
+
+#sp-top1 ul i:hover{
+	color:#FF9307;
+}
+/*=== FIN ICONOS SOCIALES ===*/
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO BLOG ===*/
+.sp-module.blog{
+	margin-bottom: 20px;
+
+}
+
+.sp-module.blog h3{
+	font-size: 1.5em;
+}
+
+.sp-module.blog li{
+	background-color: #22b8f0;
+}
+
+
+.sp-module.blog li a{
+	color:white;
+	font-size: 1.3em;
+	padding-left: 15px;
+}
+
+.sp-module.blog li a:hover{
+	color:#FF9307;
+}
+
+/*=== FIN MENU LATERAL IZQUIERDO BLOG ==*/
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO MINISTERIOS ===*/
+.sp-module.ministerios{
+}
+
+.sp-module.ministerios h3{
+	font-size: 1.5em;
+}
+
+.sp-module.ministerios li{
+	background-color: #1d8891;
+}
+
+
+.sp-module.ministerios li a{
+	color:white;
+	font-size: 1.3em;
+	padding-left: 15px;
+}
+
+
+.sp-module.ministerios li a:hover{
+	color:#FF9307;
+}
+
+
+/*=== FIN MENU LATERAL IZQUIERDO MINISTERIOS ==*/
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO NOTICIAS ===*/
+.sp-module.noticia{
+	margin-bottom: 20px;
+
+
+}
+
+.sp-module.noticia h3{
+	font-size: 1.5em;
+}
+
+.sp-module.noticia li{
+	background-color: #FF9307;
+}
+
+
+.sp-module.noticia li a{
+	color:white;
+	font-size: 1.3em;
+	padding-left: 15px;
+}
+
+
+/*=== FIN MENU LATERAL IZQUIERDO MINISTERIOS ==*/
+
+
+
+
+/*== PERSONALIZAR BOTON SUBIDA PAGINA ==*/
+
+
+a#gototop {
+	text-align: center;
+	background: transparent;
+	border:none;
+	font-size: 6em;
+	color:#FF9307;
+	width: 100px;
+	height: 100px;
+}
+
+a#gototop:hover {
+	background: transparent;
+	border:none;
+	color:#1d8891;
+	border:2px solid #1d8891;
+	border-radius:100%;
+}
+
+
+/*== FIN BOTON SUBIDA PAGINA ==*/
+
+
+/*== PERSONALIZAR MODULE TITLE RIGHT ==*/
+
+.sp-module-title{
+	color:#22b8f0;
+}
+
+
+/*== BREADCRUMPS ==*/
+.breadcrumb{
+	color:#FF9307;
+}
+
 
 /*== PERSONALIZAR MENU SUPERIOR ==*/
 
@@ -23,7 +155,7 @@ Verde:#1d8891;
 
 
 
-/*=== PERSONALIZAR SOY NUEVO ===*/
+/*=== PERSONALIZAR INICIO-SOY NUEVO ===*/
 
 #sp-position-1{
 }
@@ -43,16 +175,19 @@ div.soybox{
 }
 
 
+/*=== FIN PERSONALIZAR INICIO-SOY NUEVO ===*/
 
-/*=== FIN PERSONALIZAR SOY NUEVO ===*/
 
-/*=== PERSONALIZAR NUESTROS MINISTERIOS ===*/
+
+/*=== PERSONALIZAR INICIO-NUESTROS MINISTERIOS ===*/
 #sp-position-2{
+	background: #FFFAF7;
 }
 
 #sp-position2{
 	width: 100%;
 	height: 100%;
+	padding-bottom: 20px;
 	margin:auto;
 }
 
@@ -78,9 +213,9 @@ div.galeria{
 	display: inline-block;
 	width: 170px;
 	height: 170px;
-	-webkit-animation: 2s movemin 2s;
-	-o-animation: 2s movemin 2s;
-	animation: 2s movemin s;
+	-webkit-animation:3s movemin 4s;
+	-o-animation: 3s movemin 4s;
+	animation: 3s movemin 4s;
 
 }
 
@@ -117,7 +252,103 @@ div.galeria img:hover {
 
 /*=== FIN NUESTROS MINISTERIOS ===*/
 
-/** MEDIA QUERIES JOMMLA **/
+
+/*=== PERSONALIZAR MAIN-BODY === */
+
+#sp-main-body{
+	background: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#sp-main-body h1{
+	text-align: center;
+	color:#22b8f0;
+}
+
+/*== PERSONALIZAR SOY NUEVO-PASTORAL ==*/
+
+div.pastoral{
+	-webkit-animation:2s movemin 2s;
+	-o-animation: 2s movemin 2s;
+	animation: 2s movemin 2s;
+}
+
+
+div.pastoral h3{
+	text-align: center;
+	color:#22b8f0;
+
+}
+
+
+/*==FIN PERSONALIZAR SOY NUEVO-PASTORAL ==*/
+
+
+
+/*== PERSONALIZAR SOY NUEVO-STAFF ==*/
+
+div.staff{
+	-webkit-animation:2s movemout 2s;
+	-o-animation: 2s movemout 2s;
+	animation: 2s movemout 2s;
+}
+
+
+
+
+div.staff h3{
+	text-align: center;
+	color:#22b8f0;
+
+}
+
+
+div.staff h4{
+	font-size: 1.3em;
+	color:#FF9307;
+
+}
+
+
+.media-object{
+	height: auto;
+	max-width: none;
+}
+
+
+
+/*==FIN PERSONALIZAR SOY NUEVO-STAFF ==*/
+
+
+/*==== PERSONALIZAR MAPA ====*/
+
+div.contacto{
+	-webkit-animation:2s movemin 2s;
+	-o-animation: 2s movemin 2s;
+	animation: 2s movemin 2s;
+}
+
+div.contacto h3{
+	color:#22b8f0;
+	padding-bottom: 15px;
+
+}
+
+
+
+/*=== FIN PERSONALIZAR SOY NUEVO-MAPA
+
+
+
+
+
+
+/** ================================
+====================================
+	MEDIA QUERIES JOMMLA
+=================================== 
+======================================**/
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:768px) {
@@ -127,7 +358,42 @@ div.galeria img:hover {
 
 /*== FIN MENU SUPERIOR ==*/
 
-/*=== PERSONALIZAR SOY NUEVO ===*/
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO BLOG ===*/
+.sp-module.blog{
+	width: 500px;
+	height: auto;
+
+}
+
+/*=== FIN MENU LATERAL IZQUIERDO BLOG ==*/
+
+
+
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO MINISTERIOS ===*/
+.sp-module.ministerios{
+	width: 500px;
+	height: auto;
+
+}
+
+/*=== FIN MENU LATERAL IZQUIERDO MINISTERIOS ==*/
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO NOTICIAS ===*/
+.sp-module.noticia{
+	width: 500px;
+	height: auto;
+
+}
+
+/*=== FIN MENU LATERAL IZQUIERDO MINISTERIOS ==*/
+
+
+
+
+
+
+/*=== PERSONALIZAR INICIO-SOY NUEVO ===*/
 
 #sp-position-1{
 }
@@ -148,9 +414,9 @@ div.soybox{
 
 
 
-/*=== FIN PERSONALIZAR SOY NUEVO ===*/
+/*=== FIN PERSONALIZAR INICIO-SOY NUEVO ===*/
 
-/*=== PERSONALIZAR NUESTROS MINISTERIOS ===*/
+/*=== PERSONALIZAR INICIO-NUESTROS MINISTERIOS ===*/
 
 div.min h3{
 	font-size: 2.5em;
@@ -171,7 +437,73 @@ div.galeria{
 }
 
 
-/*=== FIN NUESTROS MINISTERIOS ===*/
+/*=== FIN INICIO-NUESTROS MINISTERIOS ===*/
+
+
+
+/*== PERSONALIZAR SOY NUEVO-PASTORAL ==*/
+div.pastoral{
+
+}
+
+
+div.pastoral h3{
+	font-size: 2.5em;
+	text-align: center;
+	color:#22b8f0;
+
+}
+
+
+/*==FIN PERSONALIZAR SOY NUEVO-PASTORAL ==*/
+
+
+
+/*== PERSONALIZAR SOY NUEVO-STAFF ==*/
+
+div.staff h3{
+	font-size: 2.5em;
+	text-align: center;
+	color:#22b8f0;
+
+}
+
+
+div.staff h4{
+	font-size: 1.5em;
+	color:#FF9307;
+
+}
+
+
+.media-object{
+	height: auto;
+	max-width: none;
+}
+
+
+
+/*==FIN PERSONALIZAR SPY NUEVO-STAFF ==*/
+
+/*==== PERSONALIZAR MAPA ====*/
+
+div.mapa{
+
+}
+
+div.mapa h3{
+	font-size: 2em;
+	color:#22b8f0;
+	padding-bottom: 15px;
+
+}
+
+
+
+/*=== FIN PERSONALIZAR SOY NUEVO-MAPA
+
+
+
 
 
 
@@ -179,6 +511,41 @@ div.galeria{
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
 	
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO BLOG ===*/
+.sp-module.blog{
+	width: auto;
+	height: auto;
+
+}
+
+/*=== FIN MENU LATERAL IZQUIERDO BLOG ==*/
+
+
+
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO MINISTERIOS ===*/
+.sp-module.ministerios{
+	width: auto;
+	height: auto;
+
+}
+
+/*=== FIN MENU LATERAL IZQUIERDO MINISTERIOS ==*/
+
+/*=== PERSONALIZAR MENU LATERAL IZQUIERDO NOTICIAS ===*/
+.sp-module.noticia{
+	width: auto;
+	height: auto;
+
+}
+
+
+
+
+
+
+
 /*== PERSONALIZAR MENU SUPERIOR ==*/
 
 #sp-header {
@@ -212,7 +579,7 @@ div.galeria{
 
 /*== FIN MENU SUPERIOR ==*/
 
-/*=== PERSONALIZAR SOY NUEVO ===*/
+/*=== PERSONALIZAR INICIO-SOY NUEVO ===*/
 
 #sp-position-1{
 	padding-top: 35px;
@@ -234,9 +601,9 @@ div.soybox{
 
 
 
-/*=== FIN PERSONALIZAR SOY NUEVO ===*/
+/*=== FIN PERSONALIZAR INICIO-SOY NUEVO ===*/
 
-/*=== PERSONALIZAR NUESTROS MINISTERIOS ===*/
+/*=== PERSONALIZAR INICIO-NUESTROS MINISTERIOS ===*/
 
 div.min h3{
 	font-size: 2.5em;
@@ -258,7 +625,71 @@ div.galeria{
 }
 
 
-/*=== FIN NUESTROS MINISTERIOS ===*/
+/*=== FIN INICIO-NUESTROS MINISTERIOS ===*/
+
+
+
+
+/*== PERSONALIZAR SOY NUEVO-PASTORAL ==*/
+
+div.pastoral h3{
+	font-size: 2.5em;
+	text-align: center;
+	color:#22b8f0;
+
+}
+
+
+/*==FIN PERSONALIZAR SOY NUEVO-PASTORAL ==*/
+
+
+
+/*== PERSONALIZAR SOY NUEVO-STAFF ==*/
+
+div.staff h3{
+	font-size: 2.5em;
+	text-align: center;
+	color:#22b8f0;
+
+}
+
+
+div.staff h4{
+	font-size: 1.5em;
+	color:#FF9307;
+
+}
+
+
+.media-object{
+	height: auto;
+	max-width: none;
+}
+
+
+
+/*==FIN PERSONALIZAR SPY NUEVO-STAFF ==*/
+
+/*==== PERSONALIZAR MAPA ====*/
+
+div.mapa h3{
+	font-size: 2.5em;
+	color:#22b8f0;
+	padding-bottom: 15px;
+
+}
+
+div.mapa p{
+	font-size: 1.5em;
+}
+
+
+
+/*=== FIN PERSONALIZAR SOY NUEVO-MAPA
+
+
+
+
 
 
 
@@ -282,3 +713,10 @@ div.galeria{
   }
 }
 
+
+@keyframes movemout{
+  0% {
+    -moz-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+}
